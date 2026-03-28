@@ -1,6 +1,6 @@
 # Hugo Template
 
-A minimal Hugo template with clean CSS styling, navigation, and a basic content structure.
+A minimal Hugo template with basic CSS, navigation, and template content structure.
 
 ## Quick Start
 
