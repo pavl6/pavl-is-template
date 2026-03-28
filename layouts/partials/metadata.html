@@ -1,0 +1,6 @@
+{{ if or .Params.date .Params.lastmod }}
+  <div class="metadata">
+    {{ with .Params.date }}Page Created: <time datetime="{{ dateFormat "2006-01-02T15:04" . }}">{{ dateFormat "2006-01-02" . }}</time>{{ end }}
+    {{ with .Params.lastmod }}&nbsp;|&nbsp;Page Edited: <time datetime="{{ dateFormat "2006-01-02T15:04" . }}">{{ dateFormat "2006-01-02" . }}</time>{{ end }}
+  </div>
+{{ end }}

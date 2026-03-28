@@ -1,0 +1,5 @@
+{{ with .Parent }}
+    {{ if not .IsHome }}
+    <div class="back"><a href="{{ .RelPermalink }}">&lt; Back</a></div>
+    {{ end }}
+{{ end }}

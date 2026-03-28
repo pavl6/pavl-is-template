@@ -1,0 +1,30 @@
+baseURL: 'https://example.com/'
+languageCode: 'en-gb'
+title: 'My Site'
+
+menus:
+  main:
+    - name: 'Index'
+      pageRef: '/'
+      weight: 1
+    - name: 'About'
+      pageRef: '/about'
+      weight: 2
+    - name: 'Blog'
+      pageRef: '/blog'
+      weight: 3
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+    lineNumbersInTable: false
+
+disableKinds:
+  - taxonomy
+  - term
