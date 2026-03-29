@@ -15,10 +15,10 @@ content/
   _index.md             # Homepage
   about.md              # About page
   blog/
-    _index.md           # Blog listing (with RSS)
+    _index.md           # Blog listing (with RSS, defined to use a list format with dates)
     example-post.md     # Example blog post
   resources/
-    _index.md           # Resources listing (simple style)
+    _index.md           # Resources listing (default list style)
     links.md            # Example resource page
 layouts/
   _default/
