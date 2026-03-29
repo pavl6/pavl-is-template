@@ -1,40 +1,40 @@
 # pavl.is Template
 
-A minimal Hugo template version of my website [https://pavl.is/](https://pavl.is/) with basic CSS, navigation, and template content structure.
+A minimal Hugo template version of my website https://pavl.is/ with basic CSS, navigation, and template content structure.
 
 ## Quick Start
 
-```
-hugo server
-```
+1. [Install Hugo](https://gohugo.io/installation/)
+2. Run ```hugo server``` in the root project directory to host a local server for testing.
+3. Run ```hugo``` to publish a version ready for upload to a web server.
 
 ## Structure
 
 ```
 content/
-  _index.md          # Homepage
-  about.md           # About page
+  _index.md             # Homepage
+  about.md              # About page
   blog/
-    _index.md        # Blog listing (with RSS)
-    example-post.md  # Example blog post
+    _index.md           # Blog listing (with RSS)
+    example-post.md     # Example blog post
   resources/
-    _index.md        # Resources listing (simple style)
-    links.md         # Example resource page
+    _index.md           # Resources listing (simple style)
+    links.md            # Example resource page
 layouts/
   _default/
-    baseof.html      # Base template (nav, footer, CSS/RSS head)
-    list.html        # List pages (dated or simple style via listStyle param)
-    single.html      # Single content pages
-  index.html         # Homepage template
-  404.html           # 404 page
+    baseof.html         # Base template (nav, footer, CSS/RSS head)
+    list.html           # List pages (dated or simple style via listStyle param)
+    single.html         # Single content pages
+  index.html            # Homepage template
+  404.html              # 404 page
   partials/
-    back.html        # "< Back" link to parent page
-    metadata.html    # Page created/edited dates
+    back.html           # "< Back" link to parent page
+    metadata.html       # Page created/edited dates
     page-children.html  # Simple child page listing
 assets/
-  css/main.css       # Stylesheet
+  css/main.css          # Stylesheet
 archetypes/
-  default.md         # Default archetype for new content
+  default.md            # Default archetype for new content
 ```
 
 ## Customisation
