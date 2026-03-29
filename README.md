@@ -1,6 +1,6 @@
-# Hugo Template
+# pavl.is Template
 
-A minimal Hugo template with clean CSS styling, navigation, and a basic content structure.
+A minimal Hugo template version of my website [https://pavl.is/](https://pavl.is/) with basic CSS, navigation, and template content structure.
 
 ## Quick Start
 
