@@ -1,6 +1,7 @@
 ---
 title: 'Example Post'
 date: 2026-01-01
+lastmod: 2026-03-29
 description: 'An example blog post.'
 ---
 

@@ -1,8 +1,6 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ if eq .Params.listStyle "simple" }}
-    {{ partial "page-children.html" . }}
-  {{ else }}
+  {{ if eq .Params.listStyle "dated" }}
     <ul>
       {{ range .Pages.ByDate.Reverse }}
         <li>
@@ -11,5 +9,7 @@
         </li>
       {{ end }}
     </ul>
+  {{ else }}
+    {{ partial "page-children.html" . }}
   {{ end }}
 {{ end }}

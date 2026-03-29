@@ -19,6 +19,7 @@ content/
     example-post.md  # Example blog post
   resources/
     _index.md        # Resources listing (simple style)
+    links.md         # Example resource page
 layouts/
   _default/
     baseof.html      # Base template (nav, footer, CSS/RSS head)
@@ -42,5 +43,5 @@ archetypes/
 - **Navigation**: Edit the `menus.main` entries in `hugo.yaml`
 - **Styling**: Edit `assets/css/main.css` — colours are defined as CSS custom properties in `:root`
 - **New section**: Create `content/section-name/_index.md` and add a menu entry in `hugo.yaml`
-- **List style**: Set `listStyle: simple` in a list page's front matter for a plain link list (no dates), or omit it for a dated listing
+- **List style**: Set `listStyle: dated` in a list page's front matter for a date-sorted listing, or omit it for a plain link list
 - **New post**: Run `hugo new blog/my-post.md` or create the file manually
